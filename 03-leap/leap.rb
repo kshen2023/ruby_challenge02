@@ -1,3 +1,6 @@
+# Kang Shen
+# 2024-May-19
+#  The Year class method leap? determines whether a given year is a leap year according to the Gregorian calendar by checking its divisibility by 4, 100, and 400.
 class Year
     def self.leap?(year)
       # Check if the year is evenly divisible by 4
