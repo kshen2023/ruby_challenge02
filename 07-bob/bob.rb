@@ -4,6 +4,7 @@
 class Bob
     def hey(remark)
       # Check if the remark is silent or empty
+      # strip remove leading and trailing whitespace characters from a string
       if remark.strip.empty?
         'Fine. Be that way!'
       # Check if the remark is shouting (all uppercase)
